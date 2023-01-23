@@ -23,3 +23,12 @@ Create .env.local file in the root directory and add the data as mentioned
 
 SUPABASE_URL = dummy_url
 SUPABASE_KEY = dummy_key
+
+
+Development flow
+
+Clone the project
+Switch to develop branch
+create the branch from develop - this will be your development branch
+raise a pr from your branch to develop, get it approved and merge to develop
+then it will be merged to main
